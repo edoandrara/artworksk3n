@@ -3,102 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Toko Salak</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Toko Keripik Salak</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f9f9f9;
-            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
         }
         header {
-            background-color: #e63946;
-            color: #fff;
-            padding: 10px 0;
+            background-color: #D53924;
+            color: white;
+            padding: 10px 20px;
             text-align: center;
-        }
-        nav {
-            margin: 20px 0;
-        }
-        nav a {
-            margin: 0 15px;
-            color: #333;
-            text-decoration: none;
         }
         .container {
-            width: 80%;
+            max-width: 1200px;
             margin: auto;
-            overflow: hidden;
+            padding: 20px;
         }
         .product {
-            background: #fff;
             border: 1px solid #ddd;
-            margin: 15px 0;
-            padding: 20px;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 20px;
+            background-color: white;
             text-align: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        .product h2 {
+            font-size: 24px;
+            color: #333;
+        }
+        .product p {
+            font-size: 20px;
+            color: #555;
         }
         .price {
-            font-size: 20px;
-            color: #e63946;
-        }
-        footer {
-            text-align: center;
-            padding: 10px 0;
-            background-color: #e63946;
-            color: #fff;
+            font-weight: bold;
+            color: #D53924;
+            font-size: 24px;
         }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>Toko Salak</h1>
-    <p>Produk Olahan Salak Lezat</p>
+    <h1>Toko Keripik Salak</h1>
+    <p>Berbagai Produk Olahan Salak Enak dan Sehat</p>
 </header>
 
-<nav>
-    <a href="#">Beranda</a>
-    <a href="#">Produk</a>
-    <a href="#">Kontak</a>
-</nav>
-
 <div class="container">
-    <h2>Produk Kami</h2>
-
     <div class="product">
-        <h3>Keripik Salak</h3>
+        <h2>Keripik Salak</h2>
         <p class="price">Rp 17.000</p>
     </div>
-
     <div class="product">
-        <h3>Pleret Salak</h3>
+        <h2>Pleret Salak</h2>
         <p class="price">Rp 10.000</p>
     </div>
-
     <div class="product">
-        <h3>Stik Salak</h3>
+        <h2>Stik Salak</h2>
         <p class="price">Rp 10.000</p>
     </div>
-
     <div class="product">
-        <h3>Teh Salak</h3>
+        <h2>Teh Salak</h2>
         <p class="price">Rp 10.000</p>
     </div>
-
     <div class="product">
-        <h3>Kopi Biji Salak</h3>
+        <h2>Kopi Biji Salak</h2>
         <p class="price">Rp 10.000</p>
     </div>
-
     <div class="product">
-        <h3>Sirup Salak</h3>
-        <p class="price">Rp 20.000 / botol</p>
+        <h2>Sirup Salak</h2>
+        <p class="price">Rp 20.000 /botol</p>
     </div>
 </div>
-
-<footer>
-    <p>&copy; 2023 Toko Salak. Semua Hak Dilindungi.</p>
-</footer>
 
 </body>
 </html>
